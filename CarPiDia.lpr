@@ -13,7 +13,6 @@ uses
 {$R *.res}
 
 begin
-  Application.Title:='CarPiDia';
   RequireDerivedFormResource:=True;
   Application.Initialize;
   Application.CreateForm(TfrmMain, frmMain);
