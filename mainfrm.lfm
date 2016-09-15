@@ -1,8 +1,52 @@
 object frmMain: TfrmMain
-  Left = 419
-  Height = 240
-  Top = 199
-  Width = 320
+  Left = 517
+  Height = 480
+  Top = 266
+  Width = 800
   Caption = 'frmMain'
+  ClientHeight = 480
+  ClientWidth = 800
   LCLVersion = '1.6.0.4'
+  object pcMain: TPageControl
+    Left = 0
+    Height = 416
+    Top = 64
+    Width = 800
+    ActivePage = tsAudio
+    Align = alClient
+    ShowTabs = False
+    TabIndex = 0
+    TabOrder = 0
+    object tsAudio: TTabSheet
+      Caption = 'tsAudio'
+    end
+    object tsDiag: TTabSheet
+      Caption = 'tsDiag'
+    end
+    object tsVideo: TTabSheet
+      Caption = 'tsVideo'
+    end
+    object tsNav: TTabSheet
+      Caption = 'tsNav'
+    end
+  end
+  object panMain: TPanel
+    Left = 0
+    Height = 64
+    Top = 0
+    Width = 800
+    Align = alTop
+    Caption = 'panMain'
+    ClientHeight = 64
+    ClientWidth = 800
+    TabOrder = 1
+    object btnAudio: TButton
+      Left = 184
+      Height = 64
+      Top = 0
+      Width = 64
+      Caption = 'Audio'
+      TabOrder = 0
+    end
+  end
 end
